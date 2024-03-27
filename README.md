@@ -9,7 +9,7 @@ This project is licensed under the BSD-3-Clause License - see the [LICENSE](LICE
 
 ## Scripts
 
-### Google Docs Default Style Application Script
+### [Google Docs Default Style Application Script](apply-default-styles.gs)
 
 #### Overview
 
