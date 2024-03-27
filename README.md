@@ -33,6 +33,7 @@ This script is designed to apply default styles to Google Docs, with a particula
 Due to Google Docs API constraints, the script encounters several limitations:
 
 -   **Style Application**: The API does not permit fetching or applying the exact default styles programmatically as the Google Docs UI does. Consequently, some styles, such as specific indents and spacing after paragraphs, are approximated based on observed defaults and may not match the UI's "Normal text" setting precisely.
+-   **Inline Style Preservation**: While inline styles are lost by the UI when reapplying styles to a block, I would perfer it they didn't. However, I didn't find a way to make that happen, at this point.
 -   **List Item Handling**: Google Docs API provides limited control over list styling, particularly with regard to bullet sizes and list item padding. The script makes best-effort adjustments within these constraints.
 -   **Performance**: The script's execution time may vary depending on the document's length and complexity, with longer documents potentially experiencing slower processing times.
 
